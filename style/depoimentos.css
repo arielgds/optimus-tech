@@ -1,0 +1,30 @@
+.depoimento{
+    text-align: center;
+    background-color: var(--varmelho-transparente);
+    margin: 2em 3em 3em 3em;
+    padding: 3em;
+}
+
+.depoimento__titulo-menor{
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--vermelho);
+    margin-bottom: 1em;
+}
+
+.depoimento__titulo-maior{
+    font-weight: 500;
+    font-size: 36px;
+    color: var(--preto);
+}
+
+.depoimento__nome{
+    font-weight: 500;
+    margin: 1em 0 .5em 0;
+    color: var(--preto);
+}
+
+.depoimento__atribuicao{
+    font-size: 14;
+    color: var(--cinza-principal);
+}

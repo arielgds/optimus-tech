@@ -1,0 +1,32 @@
+@import url(style/cabecalho.css);
+@import url(style/sobre-e-container.css);
+@import url(style/container-vagas.css);
+@import url(style/depoimentos.css);
+@import url(style/formulario.css);
+
+:root {
+    --cinza-titulo: #3A404E;
+    --cinza-principal: #667085;
+    --preto: #101828;
+    --vermelho: #8E2424;
+    --branco: #fff;
+    --branco-rodape: #F9FAFB;
+    --cinza-rodape: #F9FAFB;
+    --varmelho-transparente: #8e242413;
+    --borda-marcacao: #EAECF0;
+    --cinza-rodape: #98A2B3;
+    --fonte-principal: "Inter", sans-serif;
+}
+
+html{
+    background-color: var(--branco);
+    font-family:var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.link{
+    text-decoration: none;
+    color: var(--cinza-principal);
+}
+
